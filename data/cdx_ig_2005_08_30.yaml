@@ -1,0 +1,31 @@
+date: "2005-08-30"
+index: CDX NA IG
+tenor: 5Y
+index_spread_bps: 50.0
+swap_rate_pct: 4.47
+recovery_rate: 0.40
+num_names: 125
+maturity_years: 5.0
+coupon_frequency: 4  # quarterly
+
+tranches:
+  - attachment: 0.00
+    detachment: 0.03
+    quote_type: upfront_pct
+    quote_value: 40.0
+  - attachment: 0.03
+    detachment: 0.07
+    quote_type: spread_bps
+    quote_value: 127.0
+  - attachment: 0.07
+    detachment: 0.10
+    quote_type: spread_bps
+    quote_value: 35.5
+  - attachment: 0.10
+    detachment: 0.15
+    quote_type: spread_bps
+    quote_value: 20.5
+  - attachment: 0.15
+    detachment: 0.30
+    quote_type: spread_bps
+    quote_value: 9.5

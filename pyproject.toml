@@ -1,0 +1,16 @@
+[project]
+name = "numerical-cdo-copula"
+version = "0.1.0"
+description = "Nonparametric copula model for CDO tranche pricing"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "scipy",
+    "chebfun",
+    "click",
+    "pyyaml",
+    "matplotlib",
+]
+
+[project.scripts]
+cdo-copula = "cdo_copula.cli:main"
